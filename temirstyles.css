@@ -1,0 +1,99 @@
+body, html {
+    height: 100%;
+    width: 100%;
+      background-color: #EEEEEE;
+      font-family: Verdana, sans-serif;
+  }
+
+  .menu ul
+  {
+  list-style: none;
+  background: #3A3845;
+  margin: 0;
+  text-align: right;
+  }
+  .menu li{
+  display: inline-block;
+  }
+  .menu a{
+  text-decoration: none;
+  color:#fff;
+  display:block;
+  width: 100px;
+  padding:25px;
+  font-weight: bold;
+  font-family: American Typewriter;
+  text-align:center;
+  }
+  .menu a:hover{
+    background: #A97155;
+ }
+ .head {
+   color: white;
+ }
+  .item-p {
+   color: #727070;
+ }
+ .head-image {
+   height: 100%;
+   width: 100%;
+  background-image: url("https://wallpapertops.com/walldb/original/7/3/6/619263.jpg");
+  background-size: cover;
+}
+  .head-text {
+  color: white;
+  background-color: #FF5722;
+  font-weight: bold;
+  position: absolute;
+  top: 18%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80;
+  text-align: center;
+  padding: 1px;
+  width: 100%;
+}
+  .head-p {
+    color: white;
+    background-color: #00ADB5;
+    font-weight: bold;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80;
+    text-align: center;
+    padding: 1px;
+    width: 100%;
+  }
+  .card {
+    height: 348px;
+    width: 348px;
+    margin: 15px;
+    box-shadow: 0 4px 8px 0 #606060;
+    transition: 0.3s;
+  }
+  .card:hover {
+    box-shadow: 0 8px 16px 0 #606060;
+}
+  .flex-container {
+    display: flex;
+  }
+  .buy-link:link, .buy-link:visited {
+    background-color: #303841;
+    color: white;
+    display:inline-block;
+    text-align: center;
+    padding: 10px 10px;
+  }
+  .buy-link:hover, .buy-link:active{
+    background-color: #00ADB5;
+  }
+  .footer {
+    background-color: #303841;
+    color: white;
+    text-align:center;
+    padding: 40px;
+  }

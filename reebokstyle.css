@@ -1,0 +1,69 @@
+body{
+  margin:0 auto;
+ background-color: #F3E9DD;
+font-family: American Typewriter;
+}
+.logo{
+  text-align: left;
+  position: absolute;
+}
+.menu ul
+{
+list-style: none;
+background: #3A3845;
+margin: 0;
+text-align: right;
+}
+.menu li{
+display: inline-block;
+}
+.menu a{
+text-decoration: none;
+color:#fff;
+display:block;
+width: 100px;
+padding:25px;
+font-weight: bold;
+font-family: American Typewriter;
+text-align:center;
+}
+.menu a:hover{
+  background: #A97155
+}
+.h1{
+  text-align: center;
+}
+.reeboklogo img {
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 30%;
+}
+.h11{
+  text-align: center;
+}
+   .card:hover {
+     box-shadow: 0 8px 16px 0 #606060;
+ }
+   .flex-container {
+     display: flex;
+   }
+   .buylink:link, .buylink:visited {
+     text-decoration: none;
+     background-color: #3A3845;
+     color: white;
+     display:inline-block;
+     text-align: center;
+     padding: 10px 10px;
+   }
+   .hf{
+     color:white;
+   }
+   .ppp{
+     color:white;
+   }
+   .footer1 {
+     background-color: #3A3845;
+     padding: 20px;
+     text-align: center;
+   }
